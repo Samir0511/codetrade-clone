@@ -1,0 +1,915 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      *{
+        cursor: url(cursor.png)16 16,auto;
+      }
+    </style>
+</head>
+
+<body>
+  <header id="header">
+
+    <nav class="navbar fw-bold sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="logo_white.svg" id="headerimg" width="150px" height="36.42px" alt="Image Not Found">
+        </a>
+        <ul class="nav justify-content-center ">
+          <li class="nav-item dropdown">
+            <a class="nav-link text-light " id="about" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              About us <i class=" bi bi-chevron-down "></i>
+            </a>
+            <div class="dropdown-content">
+              <div class="column">
+                <ul>
+                  <li><a class="dropdown-item" href="#">Our Story</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <ul>
+                  <li><a class="dropdown-item" href="#">Engagement Models</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <ul>
+                  <li><a class="dropdown-item" href="#">Career</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <ul>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                </ul>
+              </div>
+
+
+            </div>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link text-light  " href="#" id="service" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Service <i class=" bi bi-chevron-down "></i>
+            </a>
+            <div class="dropdown-content">
+              <div class="column">
+
+                <ul>
+                  <li><a class="dropdown-item " href="#">Enterprice WebSolution</a></li>
+                </ul>
+              </div>
+              <div class="column">
+
+                <ul>
+                  <li><a class="dropdown-item" href="#">Web Design</a></li>
+                </ul>
+              </div>
+              <div class="column">
+
+                <ul>
+                  <li><a class="dropdown-item" href="#">CMS Website Development</a></li>
+                </ul>
+              </div>
+              <div class="column">
+
+                <ul>
+                  <li><a class="dropdown-item" href="#">e Commerce</a></li>
+                </ul>
+              </div>
+              <div class="column">
+
+                <ul>
+                  <li><a class="dropdown-item" href="#">Mobile App</a></li>
+                </ul>
+              </div>
+              <div class="column">
+
+                <ul>
+                  <li><a class="dropdown-item" href="#">Accounting </a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link  text-light " href="#" id="Technologies" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Technologies
+              <i class=" bi bi-chevron-down "></i>
+            </a>
+            <div class="dropdown-menu dropdown-flex " aria-labelledby="technologies-dropdown-menu">
+              <div class="column">
+                <h6>Mobility</h6>
+                <ul>
+                  <li><a href="#">Android</a></li>
+                  <li><a href="#">iOS</a></li>
+                  <li><a href="#">React Native</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <h6>Web & Fullstack</h6>
+                <ul>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">Python</a></li>
+                  <li><a href="#">Microsoft ASP.Net</a></li>
+                  <li><a href="#">JS Framework</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <h6>Ecommerce & CMS</h6>
+                <ul>
+                  <li><a href="#">WordPress</a></li>
+                  <li><a href="#">Magento</a></li>
+                  <li><a href="#">Umbraco</a></li>
+                  <li><a href="#">Shopify</a></li>
+                  <li><a href="#">OpenCart</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <h6>AI & ML Development</h6>
+              </div>
+            </div>
+
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link text-light " href="#" id="hire" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Hire Dedicated Developers
+              <i class=" bi bi-chevron-down "></i>
+
+            </a>
+            <div class="dropdown-menu dropdown-flex p-4" aria-labelledby="technologies-dropdown-menu">
+              <div class="column">
+                <h6></h6>
+                <ul>
+                  <li class="p-2"><a href="#">Hire Flutter Developers</a></li>
+                  <li class="p-2"><a href="#">Hire Python Developers</a></li>
+                  <li class="p-2"><a href="#">Hire Odoo Developers</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <h6></h6>
+                <ul>
+                  <li class="p-2"><a href="#">Hire Open Edx Developers</a></li>
+                  <li class="p-2"><a href="#">Hire Android Developers</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <h6></h6>
+                <ul>
+                  <li class="p-2"><a href="#">Hire PHP Developers</a></li>
+                  <li class="p-2"><a href="#">Hire .NET Developers</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <h6></h6>
+                <ul>
+                  <li class="p-2"><a href="#">Hire Django Developers</a></li>
+                  <li class="p-2"><a href="#">Hire React Native Developers</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-light " href="#" role="button" id="expertise" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Our Expertise <i class=" bi bi-chevron-down "></i>
+            </a>
+            <div class="dropdown-content">
+              <div class="column">
+                <ul>
+                  <li class="p-1"><a href="#">ERP & CRM</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <ul>
+                  <li class="p-1"><a href="#">Odoo Development</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <ul>
+                  <li class="p-1"><a href="#">Open Edx</a></li>
+                </ul>
+              </div>
+              <div class="column">
+                <ul>
+                  <li class="p-1"><a href="#">Contact Developers</a></li>
+                </ul>
+              </div>
+
+
+
+            </div>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link text-light " href="#" role="button" id="sourcecode" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Source Code
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-light " href="#" role="button" id="blog" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Blog
+            </a>
+          </li>
+        </ul>
+
+
+      </div>
+
+    </nav>
+  </header>
+  <div class="imgUrl">
+
+
+    <div class=" container">
+      <h6 class="Main-title">Custom Solutions for all your Digital Needs </h6>
+      <h3 class="subtitle text-xl-start ">
+        Innovation-Driven, Technology-Fueled Disruption in Apps, Websites and Software
+      </h3>
+      <input type="button" class="btn Customebtn " value="Request a Quote"></input>
+
+      <div class="container">
+        <div class="row text-white container rowdirection ">
+          <div class="col">
+            <i class="bi bi-box fs-1"></i>
+            <p class="fw-bold">Out-of-the-box Perspectives</p>
+            <p>Our solutions are curated to help you develop applications and software that go beyond the boundaries of
+              normality.</p>
+
+          </div>
+          <div class="col">
+            <i class="bi bi-laptop fs-1"></i>
+            <p class="fw-bold">Technological Expertise</p>
+            <p>Our services are driven by the latest in technological solutions, including AI, blockchain, machine
+              learning and more.</p>
+
+          </div>
+          <div class="col">
+            <i class="bi bi-person-circle fs-1"></i>
+            <p class="fw-bold">Source Code Ownership</p>
+            <p>We offer all our clients complete access to the source code of applications/software so that they may
+              rebrand and sell as required.</p>
+
+          </div>
+          <div class="col">
+            <i class="bi bi-person-circle fs-1"></i>
+            <p class="fw-bold">IT Consulting and Strategy</p>
+            <p>Our diverse range of engagement models, including on-site assistance, allows our clients to connect with
+              us
+              for all intricate issues and problems.</p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  </div>
+
+
+  <div class="container p-5 " style="margin-left: 15%;">
+    <div class="row text-black">
+      <div class="col">
+        <h3>Enhance Business Capabilities with Personalized Solutions</h3>
+      </div>
+      <div class="col w-25" style="word-spacing: 2px; font-size:larger;">
+        <h6 style="width: auto; line-height: 1.6; font-size: large;">Courageous exploration of all the various
+          possibilities that the latest technologies offer has allowed us to develop solutions that are perfectly fit to
+          match the most novel of business needs. Our software development company is comprised of a team of young minds
+          fueled by the passion to integrate technologies, frameworks and programming languages in new and unexplored
+          ways.
+        </h6>
+      </div>
+      <div class="col" style="word-spacing: 2px; ;">
+        <h6 style="width: auto;  line-height: 1.6; font-size: large;">CodeTrade is your one-stop solution for all the
+          myriad ways in which you would like to evolve and break free, digitally!
+          With efficient planning, timely execution and fool-proof testing and developmental ecosystems, CodeTrade is
+          geared to offer the best in the market as far as designing and deploying software, applications and web
+          solutions are concerned.
+        </h6>
+      </div>
+    </div>
+  </div>
+
+
+
+ 
+ 
+
+  <div class=" accordion-container   " style="background-color: #F7F9fb;">
+
+    <br>
+    <br>
+    <div class=" container process ">
+
+      <div class="col text-center ">
+        <h3 class="process2  text-dark fs-1 fw-normal">Our Services</h3>
+      </div>
+      <div class="col text-center">
+        <h3 class="  process2 customline"></h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="container ">
+      <div class="row" style="margin-left: 6%;">
+        <div class="col   ">
+          <div class="card w-75 border-0 bg-transparent  pb-5">
+            <div class="card-body custome text-center border border-3"
+              style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+              <h5 class="card-title p-4">
+                <p class="Round"></p><i class="bi text-light   bi-lightbulb fs-1 "></i>
+              </h5>
+              <h5 class="card-title">Enterprice Solutions</h5>
+              <p class="card-text ">
+                Evolve your business better and faster that help you steer delicate business decisions.
+
+              </p>
+            </div>
+          </div>
+          <div class="card border-0 bg-transparent w-75">
+            <div class="card-body custome text-center border border-3"
+              style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+              <h5 class="card-title p-4">
+                <p class="Round"></p><i class="bi  bi-code-square fs-1 text-light"></i>
+              </h5>
+              <h5 class="card-title">Odoo Services</h5>
+              <p class="card-text">
+
+                Custom implement ERP with Odoo for SMEs and large industries.
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col   ">
+          <div class="card w-75 border-0  bg-transparent pb-5">
+            <div class="card-body custome text-center border border-3"
+              style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+              <h5 class="card-title p-4">
+                <p class="Round"></p><i class="bi  bi-lightbulb fs-1 text-light"></i>
+              </h5>
+              <h5 class="card-title">Ecommerce Development</h5>
+              <p class="card-text ">
+                Offering a comprehensive ecommerce development to get your business online.
+              </p>
+            </div>
+          </div>
+          <div class="card border-0 bg-transparent  w-75">
+            <div class="card-body custome text-center border border-3"
+              style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+              <h5 class="card-title p-4">
+                <p class="Round"></p><i class="bi  bi-code-square fs-1 text-light"></i>
+              </h5>
+              <h5 class="card-title">Source Code</h5>
+              <p class="card-text">
+                Get the entire source code for your business and brand it for your success.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col   ">
+          <div class="card w-75 border-0  bg-transparent  pb-5">
+            <div class="card-body custome text-center border border-3"
+              style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+              <h5 class="card-title p-4">
+                <p class="Round"></p><i class="bi  bi-lightbulb fs-1 text-light"></i>
+              </h5>
+              <h5 class="card-title">CMS Development</h5>
+              <p class="card-text ">Pick from an array of content for your website that blends usability with
+                aesthetics.
+
+
+              </p>
+            </div>
+          </div>
+          <div class="card border-0 bg-transparent w-75">
+            <div class="card-body custome text-center border border-3"
+              style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+              <h5 class="card-title p-4">
+                <p class="Round"></p><i class="bi  bi-code-square fs-1 text-light"></i>
+              </h5>
+              <h5 class="card-title"> Open edX</h5>
+              <p class="card-text">
+
+                Embracing edX technology for personalized E-learning with utmost customization.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="button text-center">
+      <button class=" text-center hirebtn" type="button">Hire Us Now</button>
+    </div>
+    <br>
+    <br>
+    <br>
+
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <div class=" container process ">
+
+    <div class="col text-center ">
+      <h3 class="process2 fw-normal  fs-1">Our Process</h3>
+    </div>
+    <div class="col text-center">
+      <h3 class="  process2 customline"></h3>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row" style="margin-left: 6%;">
+      <div class="col">
+        <div class="card w-75 border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title p-4">
+              <p class="Round"></p><i class="bi  bi-lightbulb fs-1 text-light"></i>
+            </h5>
+            <h5 class="card-title">Ideation</h5>
+            <p class="card-text ">Plan your business activities powerfully with our dedication to research and discover
+              the best possible technology solution.
+            </p>
+          </div>
+        </div>
+        <div class="card border-0 w-75">
+          <div class="card-body text-center border-0 ">
+            <h5 class="card-title p-4">
+              <p class="Round"></p><i class="bi  bi-code-square fs-1 text-light"></i>
+            </h5>
+            <h5 class="card-title">Development</h5>
+            <p class="card-text">Plan your business activities powerfully with our dedication to research and discover
+              the best possible technology solution.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0 w-75">
+          <div class="card-body  text-center ">
+            <h5 class="card-title p-4">
+              <p class="Round"></p><i class="bi  bi-code-square fs-1 text-light"></i>
+            </h5>
+            <h5 class="card-title">Prototyping</h5>
+            <p class="card-text">Crafting brilliantly designed services developed with latest available technology
+              driving quantifiable results.</p>
+          </div>
+        </div>
+        <div class="card border-0 w-75">
+          <div class="card-body text-center ">
+            <h5 class="card-title p-4">
+              <p class="Round"></p><i class="bi  bi-hdd-stack-fill fs-1 text-light"></i>
+            </h5>
+
+            <h5 class="card-title ">Testing</h5>
+            <p class="card-text">Crafting brilliantly designed services developed with latest available technology
+              driving quantifiable results.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0 w-75">
+          <div class="card-body  text-center ">
+            <h5 class="card-title p-4">
+              <p class="Round"></p><i class="bi  bi-code-square fs-1 text-light"></i>
+            </h5>
+            <h5 class="card-title">Design</h5>
+            <p class="card-text">Execute the project with utmost ease and brilliance to scale your business as we assure
+              high standards of quality.</p>
+          </div>
+        </div>
+        <div class="card border-0 w-75">
+          <div class="card-body text-center ">
+            <h5 class="card-title p-4">
+              <p class="Round"></p><i class="bi  bi-hdd-stack-fill fs-1 text-light"></i>
+            </h5>
+            <h5 class="card-title ">Implementation</h5>
+            <p class="card-text">Execute the project with utmost ease and brilliance to scale your business as we assure
+              high standards of quality.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <div class="accordion-container imgbg">
+    <br>
+    <br>
+    <br>
+    <div class="col text-center ">
+      <h3 class="process3 fw-normal  fs-1">Our Expertise</h3>
+    </div>
+    <div class="col text-center">
+      <h3 class="  process3 customline2 "></h3>
+    </div>
+    <div class="container  ">
+      <div class="row">
+        <div class="col border border-1 mt-5 me-5 boxes">
+          <div class="card border-0  bg-transparent text-center m-3">
+            <div class="card-body  text-center ">
+              <i class="bi bi-gear-wide-connected fs-1 icon text-light"></i>
+              <h5 class="card-title text-light m-4 fs-4   fw-semibold">ERP & CRM</h5>
+              <p class="text-light fs-5">We specialize in the development of large-scale enterprise systems that are
+                built on the most cutting-edge technologies such as AI, blockchain and big data analytics.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col border border-1 mt-5 me-5 boxes">
+          <div class="card border-0  bg-transparent text-center m-3">
+            <div class="card-body  text-center ">
+              <h2 class="text-white m-2">Odoo</h2>
+              <h5 class="card-title text-light m-4 fs-4   fw-semibold">Odoo</h5>
+              <p class="text-light fs-5">We are experts in the development of all major types of intrinsic systems that
+                an enterprise needs, such as billing, warehousing, inventory management, project management and more.
+              </p>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col border border-1 mt-5  me-5  boxes">
+          <div class="card border-0  bg-transparent text-center m-3">
+            <div class="card-body  text-center ">
+              <h2 class="text-white m-2 accordion " style="letter-spacing: -3px;">edX</h2>
+              <h5 class="card-title text-light m-4 fs-4   fw-semibold">Open eDX</h5>
+              <p class="text-light fs-5">We specialize in the development of large-scale enterprise systems that are
+                built on the most cutting-edge technologies such as AI, blockchain and big data analytics.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div class="accordion-content " style="background-color: #F7F9fb;  width: auto; height: 450px;   ">
+    <div class=" container process ">
+      <br><br>
+      <div class="col text-center ">
+        <h3 class="process2 fw-normal  fs-1 ">Technologies We Expertise</h3>
+      </div>
+      <br>
+      <br>
+      <br>
+
+    </div>
+    <div class="container ">
+      <div class="row" style="margin-left: 6%;">
+        <div class="col">
+          <div class="card w-75 bg-transparent border-0">
+            <div class="card-body text-center  Logoimages">
+              <img src="python.png" class=" img-fluid imagecolor " alt=" Image not found" height="80px" width="auto" />
+              <h5 class="card-title LogoText   ps-4">Python</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75 border-0 bg-transparent">
+            <div class="card-body text-center Logoimages">
+              <img src="php.png" class="img-fluid imagecolor" alt=" Image not found" height="80px" width="auto" />
+              <h5 class="card-title LogoText  ps-4">PHP</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75 border-0 bg-transparent">
+            <div class="card-body text-center Logoimages">
+              <img src=".net.png" class="img-fluid imagecolor" alt=" Image not found" height="80px" width="auto" />
+              <h5 class="card-title LogoText  ">Microsoft.NET</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75 border-0 bg-transparent">
+            <div class="card-body text-center Logoimages">
+              <img src="apple.png" class="img-fluid imagecolor" alt=" Image not found" height="80px" width="auto" />
+              <h5 class="card-title LogoText ps-5">IOS</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75 border-0 bg-transparent">
+            <div class="card-body text-center Logoimages">
+              <img src="Android.png" class=" img-fluid imagecolor" alt=" Image not found" height="80px" width="auto" />
+              <h5 class="card-title LogoText ps-4 ">Android</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75 border-0 bg-transparent">
+            <div class="card-body text-center Logoimages">
+              <img src="js.png " class="img-fluid imagecolor" alt=" Image not found" height="80px" width="auto" />
+              <h5 class="card-title LogoText text-center  ">JS Framework</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <button class="bi bi-chevron-up" onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+  <br>
+  <br>
+
+  <br>
+  <div class=" container process ">
+
+    <div class="col text-center ">
+      <h3 class="process2 fw-normal   fs-1">Our Source Code Policy</h3>
+    </div>
+    <div class="col text-center">
+      <h3 class="  process2 customline"></h3>
+      <h6 class="m-4 fw-normal " style="font-size: 18px;" width="1210px">We believe that the safeguarding of source code
+        by companies as a way to cage clients in commitment bound relationships is not the right way of doing business.
+        For us, making source code accessible to clients and offering them the freedom to rebrand and sell them on their
+        own terms is more valuable a pact as compared to the withholding of information.
+      </h6>
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+
+
+
+
+  <div class="accordion-container imgbg2">
+    <br>
+    <br>
+    <br>
+    <div class="col text-center ">
+      <h3 class="process3 fw-normal  fs-1">Hire a Developer</h3>
+    </div>
+
+    <div class="container  ">
+      <div class="row m-0 p-0">
+        <div class="col   ">
+          <div class="card bg-transparent text-white w-100 border-0">
+            <div class="card-body text-center">
+
+
+              <p class="card-text " style="font-size: 18px; margin-left: 18%; width: 800px; text-align: center;">Get in
+                touch with us today to hire a dedicated resource that can work for you on-site and help you craft
+                software, web or mobile app-based solutions in a personalized. Sit back, relax and witness the
+                amalgamation of our expert into your process flow, your work culture and your daily routine as your
+                project grows and flourishes into its completion and successful deployment.</p>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="button text-center">
+      <br>
+      <button class=" text-center contactusbtn" type="button">Contact us</button>
+    </div>
+  </div>
+
+  <footer class="footer " >
+    <div class="accordion-container " style="height: 320px; width: 100%  ; background-color: #d5e1ed  ;">
+      <div class="container ">
+        <div class="row bg-transparent">
+          <div class="col m-4 p-3 ">
+            <h4 class="label mt-4 fw-normal ">
+              Services
+            </h4>
+            <a href="#" class="  text-decoration-none text2 fs-6  " style="font-size:16px">Enterprice Web
+              Solutions</a><br>
+            <a href="#" class="  text-decoration-none text2 fs-6  " style="font-size:16px">CMS Website
+              Development</a><br>
+            <a href="#" class="  text-decoration-none text2 fs-6  " style="font-size:16px">Ecommerce</a><br>
+            <a href="#" class="  text-decoration-none text2 fs-6  " style="font-size:16px">Mobile Apps</a>
+          </div>
+          <div class="col m-4 p-3 ">
+            <h4 class="label mt-4 fw-normal ">
+              Technologies
+            </h4>
+            <a href="#" class="text-decoration-none text2 fs-6 " style="font-size:16px">Python</a><br>
+            <a href="#" class="text-decoration-none text2 fs-6 " style="font-size:16px">PHP</a><br>
+            <a href="#" class="text-decoration-none text2 fs-6 " style="font-size:16px">Wordpress</a><br>
+            <a href="#" class="text-decoration-none text2 fs-6 " style="font-size:16px">Magento</a>
+            <a href="#" class="text-decoration-none text2 fs-6 " style="font-size:16px">Ios Android</a>
+            <a href="#" class="text-decoration-none text2 fs-6 " style="font-size:16px">JS Framework</a>
+
+          </div>
+          <div class="col m-4 p-3  ">
+            <h4 class="label mt-4  fw-normal">
+              Our Expertise
+            </h4>
+            <a href="#" class="text-decoration-none text2  fs-6 " style="font-size:16px">Odoo Development</a><br>
+            <a href="#" class="text-decoration-none text2  fs-6 " style="font-size:16px">ERP and CRM</a><br>
+            <a href="#" class="text-decoration-none text2  fs-6 " style="font-size:16px">Open EdX</a><br>
+            <a href="#" class="text-decoration-none text2  fs-6 " style="font-size:16px">Contract Developers</a>
+
+
+          </div>
+          <div class="col  m-4 p-3">
+            <h4 class="label  mt-4 fw-normal ">
+              About us
+            </h4>
+            <a href="#" class="text-decoration-none  text2 fs-6  " style="font-size:16px">our Story</a><br>
+            <a href="#" class="text-decoration-none  text2 fs-6 " style="font-size:16px">Engagement Models</a><br>
+            <a href="#" class="text-decoration-none  text2 fs-6 " style="font-size:16px">Careers</a><br>
+            <a href="#" class="text-decoration-none  text2 fs-6 " style="font-size:16px">Contact Us</a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br>
+
+  <footer class="footer ">
+    <div class="accordion-container " style="height: 50px; width: 100%  ; background-color: #004b97;">
+      <div class="container ">
+        <div class="row bg-transparent">
+          <div class="col  ">
+            <a href="#" class="   "><i class="bi p-1 bi-facebook fs-3 text-white"></i></a>
+            <a href="#" class="  "><i class="bi p-1 bi-twitter fs-3 text-white"></i></a>
+            <a href="#" class=" "><i class="bi  p-1 bi-linkedin fs-3 text-white"></i></a>
+          </div>
+          <div class="col p-3 right">
+            <a href="#" class=" p-1 link-light text-decoration-none ">Privacy Policy</a>
+            <a href="#" class=" p-1 link-light text-decoration-none">Disclaimer</a>
+            <a href="#" class=" p-1 link-light text-decoration-none">Sitemap</a>
+            <a href="#" class=" p-1 text-decoration-none" style="color: #badaff; cursor: popover-arrow; ">Copyright © 2025 CodeTrade.io</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <br>
+  <br>
+
+  <footer>
+    <div class="bg-light fixed-bottom shadow-sm">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <ul class="nav justify-content-start">
+              <li class="align-middle me-0">
+                <a class="nav-link fw-light text-dark" href="#">
+                  <i class="bi bi-whatsapp fs-5 text-success"></i>
+                  <span class="align-middle"> +919428613980</span>
+                </a>
+              </li>
+              <li class="align-middle me-0">
+                <a class="nav-link fw-light text-dark" href="#">
+                  <i class="bi bi-telephone fs-5 text-success"></i>
+                  <span class="align-middle"> +919428613980</span>
+                </a>
+              </li>
+              <li class="align-middle pt-1 me-0">
+                <a class="nav-link fw-light text-dark" href="mailto:info@codetrade.io">
+                  <span class="align-middle">Email: info@codetrade.io</span>
+                </a>
+              </li>
+              <li class="align-middle me-0">
+                <a class="nav-link fw-light text-dark disabled" href="#">
+                  <i class="bi bi-geo-alt-fill fs-5 text-primary"></i>
+                  <span class="align-middle">
+                    1001-1002 Sankalp Square 3A ,Sindhu Bhavan, Bopal,
+                    Ahmedabad, Gujarat 380058</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script>
+    let mybutton = document.getElementById("myBtn");
+
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    var header = document.getElementById("header");
+    var about = document.getElementById("about");
+    var blog = document.getElementById("blog");
+    var hire = document.getElementById("hire");
+    var service = document.getElementById("service");
+    var Technologies = document.getElementById("Technologies");
+    var expertise = document.getElementById("expertise");
+    var source = document.getElementById("sourcecode");
+    var img = document.getElementById("headerimg");
+
+    window.addEventListener("scroll", function () {
+      var scroll = window.scrollY;
+
+      if (scroll >= 60) {
+        header.classList.add("black");
+        img.attributes.src.value = "logo.svg";
+        about.classList.remove("text-light");
+        about.classList.add("text-dark");
+        blog.classList.remove("text-light");
+        blog.classList.add("text-dark");
+        hire.classList.remove("text-light");
+        hire.classList.add("text-dark");
+        service.classList.remove("text-light");
+        service.classList.add("text-dark");
+        Technologies.classList.remove("text-light");
+        Technologies.classList.add("text-dark");
+        expertise.classList.remove("text-light");
+        expertise.classList.add("text-dark");
+        source.classList.remove("text-light");
+        source.classList.add("text-dark");
+      } else {
+        header.classList.remove("black");
+        img.attributes.src.value = "logo_white.svg";
+        about.classList.add("text-light");
+        about.classList.remove("text-dark");
+        blog.classList.add("text-light");
+        blog.classList.remove("text-dark");
+        hire.classList.add("text-light");
+        hire.classList.remove("text-dark");
+        service.classList.add("text-light");
+        service.classList.remove("text-dark");
+        Technologies.classList.add("text-light");
+        Technologies.classList.remove("text-dark");
+        expertise.classList.add("text-light");
+        expertise.classList.remove("text-dark");
+        source.classList.add("text-light");
+        source.classList.remove("text-dark");
+
+      }
+    });
+
+  </script>
+</body>
+
+</html>
